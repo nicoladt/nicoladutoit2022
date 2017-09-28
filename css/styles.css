@@ -15,6 +15,7 @@ font-family: 'Lato', sans-serif;
 
  }*/
 
+
  #betwixt::after {
   content: "";
   background: url("../assets/betwixt2.jpg");
@@ -27,7 +28,9 @@ font-family: 'Lato', sans-serif;
   right: 0;
   position: absolute;
   z-index: -1;
+
 }
+
 
 .navbar {
 
@@ -78,7 +81,11 @@ font-size:1.5rem;
 margin-right:1rem;
 }
 
+.img-thumbnail{
 
+  max-width:300px;
+  margin:0.5em;
+}
 .container{
   margin-top:3em;
 }
@@ -87,6 +94,18 @@ margin-right:1rem;
   margin-top:2em;
 }
 
+.footer-text{
+
+  font-family:'Cabin', sans-serif;
+  color:white;
+}
+
+.footer{
+  background-color: black;
+  min-height:4rem;
+  position: static;
+    bottom: 0;
+}
 
 /****************DEPRECATED STYLES************
 #gradient{
