@@ -1,0 +1,78 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer{
+  background-color: #505050;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 20px;
+  line-height: 30px; /* Vertically center the text there */
+  text-align: center;
+
+}
+
+footer > div{
+  background-color: inherit;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+.footer .footer-copyright{
+
+    font-family:'Cabin', sans-serif;
+	padding-top:3px;
+	padding-bottom:3px;
+	text-align: center;
+}
+
+.footer-copyright p{
+
+	color: #ccc;
+}
+
+
+
+footer .social-networks{
+	text-align: center;
+  margin-top:20px;
+}
+
+footer .social-networks a{
+    font-size: 32px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+.social-networks a:hover{
+	text-decoration: none;
+
+}
+
+.facebook:hover{
+	color:#0077e2;
+}
+
+.twitter:hover{
+	color: #00aced;
+}
+
+footer .soundcloud:hover{
+	color: #ff7700;
+}
+.linkedin:hover{
+	color: #007bb6;
+}
