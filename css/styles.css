@@ -25,7 +25,7 @@ content: "";
   background: url("../assets/trianglesfade.svg");
   background-size: cover;
   background-position: center;
-  /*opacity: 0.9;*/
+  opacity: 0.5;
   top: 0;
   left: 0;
   bottom: 0;
