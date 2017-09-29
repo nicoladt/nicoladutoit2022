@@ -9,7 +9,7 @@ body {
   margin-bottom: 60px;
 }
 .footer{
-  background-color: #bbe4bd;
+  background-color: #1770af;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -45,7 +45,7 @@ footer > div{
 
 .footer-copyright p{
 
-	color: rgba(0,0,0,.5);
+	color:white;
 }
 
 
@@ -59,7 +59,7 @@ footer .social-networks a{
     font-size: 32px;
     margin-right: 5px;
     margin-left: 5px;
-    color: rgba(0,0,0,.5);
+    color: white;
     padding: 10px;
     transition: 0.2s;
 }

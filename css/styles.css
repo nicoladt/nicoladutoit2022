@@ -7,7 +7,7 @@ font-family: 'Lato', sans-serif;
 
  #betwixt::after {
   content: "";
-  background: url("../assets/betwixt2.jpg");
+  background: url("../assets/betwixtpattern.png");
   background-size: cover;
   background-position: center;
   /*opacity: 0.9;*/
@@ -20,6 +20,32 @@ font-family: 'Lato', sans-serif;
 
 }
 
+#triangles::after{
+content: "";
+  background: url("../assets/trianglesfade.svg");
+  background-size: cover;
+  background-position: center;
+  /*opacity: 0.9;*/
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+
+}
+
+
+.white-gradient{
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+25,ffffff+85,ffffff+99&0+0,1+10,1+90,0+99 */
+  background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 10%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 85%, rgba(255,255,255,1) 90%, rgba(255,255,255,0) 99%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 10%,rgba(255,255,255,1) 25%,rgba(255,255,255,1) 85%,rgba(255,255,255,1) 90%,rgba(255,255,255,0) 99%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 10%,rgba(255,255,255,1) 25%,rgba(255,255,255,1) 85%,rgba(255,255,255,1) 90%,rgba(255,255,255,0) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+padding: 1em;
+
+}
 .bg-light{
   background-color: #bbe4bd!important;
 }
@@ -43,13 +69,19 @@ h1.home{
   color:white;
   margin:2em 1.5em 1.5em 1.5em;
   font-size:3em;
+  font-weight: 500;
   text-shadow: 1px 1px 1px #424242;
-
 
 }
 
+/*.home a{
+    background-color: #bbe4bd;
+    padding: 3px;
+}*/
+
 h1 > a{
   color:white;
+  padding:5px;
 }
 
 h1 > a:hover{
@@ -64,6 +96,11 @@ font-size: 1.5rem;
 
 }
 
+p.serif{
+  font-size:1.1rem;
+}
+
+
 a{
   color:#1095bf;
 }
@@ -73,10 +110,27 @@ a{
   padding-bottom: 5px;
 }
 
+
 .subtext{
 
 font-size:1.5rem;
 margin-right:1rem;
+}
+
+.gradient-color-1{
+  background-color:#bae4bd;
+}
+
+.gradient-color-2{
+  background-color:#74b4b0;
+}
+
+.gradient-color-3{
+  background-color:#5d838d;
+}
+
+.gradient-color-4{
+  background-color:#235a7c;
 }
 
 .img-thumbnail{
@@ -129,6 +183,10 @@ font-size:2.5em;
   h2{
     text-align: center;
   }
+
+  #triangles::after{
+  content: "";
+    background: url();
 }
 
 
