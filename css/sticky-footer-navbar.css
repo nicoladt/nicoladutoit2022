@@ -9,7 +9,7 @@ body {
   margin-bottom: 60px;
 }
 .footer{
-  background-color: #505050;
+  background-color: #bbe4bd;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -20,9 +20,16 @@ body {
 
 }
 
+.dark-gray{
+background-color: #232323;
+
+}
+
 footer > div{
   background-color: inherit;
 }
+
+
 
 
 /* Custom page CSS
@@ -38,7 +45,7 @@ footer > div{
 
 .footer-copyright p{
 
-	color: #ccc;
+	color: rgba(0,0,0,.5);
 }
 
 
@@ -52,9 +59,13 @@ footer .social-networks a{
     font-size: 32px;
     margin-right: 5px;
     margin-left: 5px;
-    color: #f9f9f9;
+    color: rgba(0,0,0,.5);
     padding: 10px;
     transition: 0.2s;
+}
+
+footer.dark-gray p, footer.dark-gray  a{
+  color:white;
 }
 
 .social-networks a:hover{
