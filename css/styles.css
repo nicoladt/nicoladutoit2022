@@ -86,6 +86,14 @@ margin-right:1rem;
   max-width:300px;
   margin:0.5em;
 }
+
+.caption{
+
+  font-size:0.7rem;
+  margin-left:0.5rem;
+  color:darkgray;
+  font-style: italic;
+}
 .container{
   margin-top:3em;
 }
@@ -94,19 +102,133 @@ margin-right:1rem;
   margin-top:2em;
 }
 
-.footer-text{
-
-  font-family:'Cabin', sans-serif;
-  color:white;
+/* footer styles */
+.full-height{
+  height:105%;
 }
 
-.footer{
-  background-color: black;
-  min-height:4rem;
-  position: static;
+.footer-bottom{
+  position: fixed;
+    width: 100%;
     bottom: 0;
+
 }
 
+#myFooter {
+	background-color: black;
+	color:white;
+  margin-top:3em;
+}
+
+#myFooter .footer-copyright{
+	background-color: #505050;
+    font-family:'Cabin', sans-serif;
+	padding-top:3px;
+	padding-bottom:3px;
+	text-align: center;
+}
+
+#myFooter .footer-copyright p{
+	margin:10px;
+	color: #ccc;
+}
+
+#myFooter ul{
+	list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+
+}
+
+#myFooter h5{
+	font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter a{
+	color:#d2d1d1;
+	text-decoration: none;
+}
+
+#myFooter a:hover, #myFooter a:focus{
+	text-decoration: none;
+	color:white;
+}
+
+#myFooter .myCols{
+	text-align: center;
+}
+
+#myFooter .social-networks{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 38px;
+}
+
+#myFooter .social-networks a{
+    font-size: 32px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover{
+	text-decoration: none;
+
+}
+
+#myFooter .facebook:hover{
+	color:#0077e2;
+}
+
+#myFooter .twitter:hover{
+	color: #00aced;
+}
+
+#myFooter .soundcloud:hover{
+	color: #ff7700;
+}
+#myFooter .linkedin:hover{
+	color: #007bb6;
+}
+@media screen and (max-width: 767px){
+	#myFooter {
+		text-align: center;
+	}
+}
+
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+/*
+html{
+	height: 100% !important;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+.content{
+	flex: 1 0 auto;
+	-webkit-flex: 1 0 auto;
+	min-height: 200px;
+}
+
+myFooter{
+	flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+*/
 /****************DEPRECATED STYLES************
 #gradient{
   min-height:800px;
