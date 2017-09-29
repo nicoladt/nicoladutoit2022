@@ -30,7 +30,30 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs474" />
+     id="defs474">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5025">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5027" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop5029" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5025"
+       id="linearGradient5031"
+       x1="1097.7028"
+       y1="1122.3356"
+       x2="1100.7266"
+       y2="780.62659"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(0.95657143,1)" />
+  </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -45,8 +68,8 @@
      id="namedview472"
      showgrid="false"
      inkscape:zoom="0.33069064"
-     inkscape:cx="542.54309"
-     inkscape:cy="229.89666"
+     inkscape:cx="1268.2969"
+     inkscape:cy="-12.021285"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -78,7 +101,7 @@
      style="display:inline">
     <g
        id="g5021"
-       transform="matrix(0.71490331,0,0,0.70683889,416.43664,23.467332)"
+       transform="matrix(0.8934709,0,0,1.0369503,515.35279,-153.87018)"
        inkscape:export-filename="/Users/nicola.dutoit/Downloads/Personal/nicoladutoit2017/assets/trianglesfade.png"
        inkscape:export-xdpi="150"
        inkscape:export-ydpi="150">
@@ -1260,5 +1283,12 @@
          x="-358.42358"
          y="-339.25259" />
     </g>
+    <rect
+       style="fill:url(#linearGradient5031);fill-opacity:1"
+       id="rect5023"
+       width="2531.0664"
+       height="429.40436"
+       x="0"
+       y="886.46564" />
   </g>
 </svg>
