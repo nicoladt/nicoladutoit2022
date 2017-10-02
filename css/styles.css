@@ -7,7 +7,7 @@ font-family: 'Lato', sans-serif;
 
  #betwixt::after {
   content: "";
-  background: url("../assets/betwixtpattern.png");
+  background: url("../assets/betwixtpattern2.png");
   background-size: cover;
   background-position: center;
   /*opacity: 0.9;*/
@@ -61,7 +61,7 @@ font-size:0.9rem;
 
 h1, h2, .navbar-brand, .serif{
 
-  font-family: 'Gilda Display', serif;
+  font-family: 'Crimson Text', serif;
 }
 
 h1.home{
@@ -85,9 +85,9 @@ h1 > a{
 
 h1 > a:hover{
 
-  color: darkgrey;
+  color: #8c8c8c;
   text-decoration: none;
-  text-shadow: 1px 1px 1px #424242;
+  */text-shadow: 1px 1px 1px #424242;*/
 }
 
 h2{
@@ -111,7 +111,7 @@ a{
 
 
 .gradient-color-1{
-  background-color:#bae4bd;
+  background-color:#a4caa7;
 }
 
 .gradient-color-2{
