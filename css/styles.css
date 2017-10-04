@@ -73,7 +73,7 @@ h1.home{
 
 }
 
-div.col: first-of-type > h1.home{
+div.col:first-of-type > h1.home{
   margin: 2em 1em 1em 1em;
 }
 
