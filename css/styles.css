@@ -7,7 +7,7 @@ font-family: 'Lato', sans-serif;
 
  #betwixt::after {
   content: "";
-  background: url("../assets/betwixtpattern2.png");
+  background: url("../assets/betwixtpattern2.jpg");
   background-size: cover;
   background-position: center;
   /*opacity: 0.9;*/
