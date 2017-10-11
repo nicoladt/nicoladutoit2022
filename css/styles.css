@@ -172,13 +172,17 @@ a{
 
 @media screen and (max-width: 400px){
 
-  h1.home{
-  margin:1em 0em 0.5em 0em;
-font-size:2.5em;
 
+
+div.col:first-of-type > h1.home{
+    margin: 1.5em 0em 1.5em 0em;
   }
-  h1.home:last-of-type{
-    margin-bottom:1.5em;
+
+
+
+  h1.home{
+font-size:2em;
+margin: 1.5em 0em 1.5em 0em;
   }
 
   h2{
