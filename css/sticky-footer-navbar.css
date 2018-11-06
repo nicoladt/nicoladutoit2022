@@ -65,7 +65,9 @@ footer.dark-gray p, footer.dark-gray  a{
 
 .social-networks a:hover{
 	text-decoration: none;
+  }
 
+/**
 }
 
 .facebook:hover{
@@ -73,12 +75,16 @@ footer.dark-gray p, footer.dark-gray  a{
 }
 
 .twitter:hover{
-	color: #00aced;
+	color: #a4caa7;
 }
 
 footer .soundcloud:hover{
-	color: #ff7700;
+	color: #a4caa7;
 }
 .linkedin:hover{
-	color: #007bb6;
+	color: #a4caa7;
+}
+
+.medium:hover{
+	color: #a4caa7;
 }
