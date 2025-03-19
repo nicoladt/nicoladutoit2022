@@ -133,11 +133,12 @@ a{
 .caveat i {
   color: white;
   text-align: center;
-  text-decoration: underline;
 }
 
 .caveat a {
-  color:white;
+  color: #00069e;
+    text-decoration: underline;
+
 }
 
 .gradient-color-1{
