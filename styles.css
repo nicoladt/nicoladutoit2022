@@ -157,7 +157,7 @@
 
     .about-visual {
         aspect-ratio: 1;
-        background: linear-gradient(135deg, #f0f0f0 0%, #e5e5e5 100%);
+      
         border: 1px solid var(--border);
         display: flex;
         align-items: center;
