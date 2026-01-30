@@ -159,7 +159,7 @@
         aspect-ratio: 1;
 
         /*border: 1px solid var(--border);*/
-        display: flex;
+        display: block;
         align-items: center;
         justify-content: center;
         font-size: 4rem;
@@ -168,7 +168,7 @@
     }
 
     #headshot{
-      max-width:500px;
+      max-width:100%;
     }
 
     /* Contact Section */
@@ -385,25 +385,35 @@ text-spacing:0.5px;
         }
 
         .hero {
-            padding: 4rem 2rem;
+            padding: 2rem 2rem;
         }
 
         .about {
+          display:block;
             grid-template-columns: 1fr;
             gap: 2rem;
-            padding: 4rem 2rem;
+            padding: 2rem 2rem;
         }
 
         .about-content h2 {
             font-size: 2rem;
+            text-align: center;
         }
 
+        .about-content p{
+          text-align: center;
+
+        }
         .contact {
             padding: 4rem 2rem;
         }
 
         .contact h2 {
             font-size: 2rem;
+        }
+
+        .contact-footer{
+          padding:0rem;
         }
 
         .contact-methods {
