@@ -421,3 +421,43 @@ text-spacing:0.5px;
             gap: 2rem;
         }
     }
+
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+
+      .nav-links {
+          gap: 1.5rem;
+          font-size: 0.85rem;
+      }
+
+      .hero {
+          padding: 2rem 2rem;
+      }
+
+      .about {
+        display:block;
+          grid-template-columns: 1fr;
+          gap: 2rem;
+          padding: 2rem 2rem;
+      }
+
+      .about-content h2 {
+          font-size: 2rem;
+          text-align: center;
+      }
+
+      .about-content p{
+        text-align: center;
+
+      }
+      .contact {
+          padding: 4rem 2rem;
+      }
+
+      .contact h2 {
+          font-size: 2rem;
+      }
+
+      .contact-footer{
+        padding:0rem;
+      }
+     }
