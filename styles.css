@@ -434,7 +434,7 @@ text-spacing:0.5px;
       }
 
       .about {
-        display:block;
+          display: block;
           grid-template-columns: 1fr;
           gap: 2rem;
           padding: 2rem 2rem;
