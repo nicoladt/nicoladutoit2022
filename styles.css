@@ -422,7 +422,7 @@ text-spacing:0.5px;
         }
     }
 
-    @media screen and (min-width: 768px) and (max-width: 1024px) {
+    @media screen and (min-width: 768px) and (max-width: 1180px) {
 
       .nav-links {
           gap: 1.5rem;
