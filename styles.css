@@ -491,9 +491,24 @@ text-spacing:0.5px;
 
     /* Responsive */
     @media (max-width: 768px) {
+       nav{
+           display:grid;
+           padding:1rem 2rem;
+
+       }
         .nav-links {
             gap: 1.5rem;
             font-size: 0.85rem;
+            padding-left:0px;
+        }
+
+        .package-list{
+            margin:0rem auto;
+           padding: 0 2rem 0 2rem;
+        }
+
+        .package:first-of-type{
+            padding:0px 0px 48px 0px;
         }
 
         .hero {
@@ -502,6 +517,13 @@ text-spacing:0.5px;
 
         .about {
           display:block;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            padding: 2rem 2rem;
+        }
+
+        .package-list {
+            display: block;
             grid-template-columns: 1fr;
             gap: 2rem;
             padding: 2rem 2rem;
@@ -546,6 +568,13 @@ text-spacing:0.5px;
       }
 
       .about {
+          display: block;
+          grid-template-columns: 1fr;
+          gap: 2rem;
+          padding: 2rem 2rem;
+      }
+
+      .package-list {
           display: block;
           grid-template-columns: 1fr;
           gap: 2rem;
